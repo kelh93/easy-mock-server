@@ -53,5 +53,5 @@ walkFile(rootDir);
 app.use(router.routes()).use(router.allowedMethods())
 
 app.listen(8200, () => {
-  console.log('easy-mock start with http://localhost:8200/');
+  console.log('localhost is listening on port 8200 http://localhost:8200/');
 });
